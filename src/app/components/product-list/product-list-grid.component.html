@@ -29,7 +29,9 @@
         <div *ngIf="products?.length == 0" class="alert alert-warning col-md-12" role="alert">
           No products found
         </div>
-        &#64;if
+        @if (products?.length === 0){
+          <ng-container class="alert alert-warning col-md-12" role="alert"></ng-container>
+        }
 
       </div>
 
