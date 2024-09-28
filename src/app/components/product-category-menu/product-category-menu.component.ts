@@ -24,7 +24,5 @@ export class ProductCategoryMenuComponent implements OnInit {
         this.productCategories = data;
       }
     );
-
-    console.log("Hello World! This is a commit just for testing");
   }
 }
